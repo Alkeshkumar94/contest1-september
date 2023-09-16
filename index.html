@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        #contact p {
+            line-height: 2px;
+        }
+
+        table {
+            position: relative;
+            left: 43%;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body style="text-align: center">
+    <header>
+        <h1>Atlantica</h1>
+        <p>The City of Ocean Dreams!</p>
+    </header>
+    <hr />
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#">Description!</a>
+        <a href="#">Attraction!</a>
+        <a href="#">Statistics!</a>
+        <a href="#">Feedback!</a>
+        <a href="#">Quotes!</a>
+        <a href="#">Contact!</a>
+    </nav>
+    <hr />
+    <!-- City Description -->
+    <section>
+        <h2>Discover Atlantica</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8VzGl6RzIl3JArnLvKXAZUP1u5y9P6laeA&usqp=CAU"
+            alt="atlantica-img" />
+        <p>
+            Atlantica, the city where the horizon merges the sky with the ocean,
+            offering dreams a canvas as vast as the sea.
+        </p>
+    </section>
+    <hr />
+    <!-- Attractions -->
+    <section>
+        <h2>Attractions</h2>
+        <h3>Main Attractions</h3>
+        <ol>
+            <li>Atlantis Tower</li>
+            <li>Deep Sea Museum</li>
+            <li>The Oceanic Bridge</li>
+        </ol>
+        <h3>Local Favourites</h3>
+        <ul>
+            <li>Merman's Street</li>
+            <li>Neptune's Diner</li>
+            <li>
+                Atlantica Beaches
+                <ul>
+                    <li>North Beach</li>
+                    <li>Reef Bay</li>
+                    <li>Mermaid cove</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <hr />
+    <!-- city statics -->
+    <section>
+        <h2>Attractions</h2>
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Population</td>
+                <td>5 Million</td>
+            </tr>
+            <tr>
+                <td>Landmarks</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Parks</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Schools</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Beaches</td>
+                <td>7</td>
+            </tr>
+        </table>
+    </section>
+    <hr />
+    <!-- citizen feedback -->
+    <section>
+        <h2>Feedback</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+            <br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" />
+            <br />
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" />
+            <br />
+
+            <label for="fav-att">Favourite Attraction:</label>
+            <select id="fav-att">
+                <option>Atlantic Tower</option>
+                <option>Deep Sea Museum</option>
+                <option>The Oceanic Bridge</option>
+            </select>
+            <br />
+
+            <label for="comment">Comments:</label>
+            <textarea name="textarea" id="comment" cols="30" rows="10"></textarea>
+            <br />
+
+            <label for="">Newsetter:</label>
+            <input type="checkbox" />Subscribe to our newsletter
+            <br />
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <hr />
+    <!-- Quotes from Citizens -->
+    <section>
+        <h2>What Citizens Say</h2>
+        <p>
+            "Atlantica's beaches are paradise on Earth.Nothing beats a sunset here!"
+            - <span>Alex</span>
+        </p>
+        <p>
+            "The blend of modern skyscrapers and ancient oceanic history is
+            mesmerizing." - <span>Isabelle</span>
+        </p>
+    </section>
+    <hr />
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><i>Atlantica Tourism office</i></p>
+        <p><i>100 Ocean Drive, Atlantica</i></p>
+        <p>
+            <i>Email:<a href="#">info@atlantica.com</a></i>
+        </p>
+        <p><i>Phone:123-456-7890</i></p>
+    </section>
+    <hr />
+    <footer>
+        &copy; <em id="date"></em>2023 Atlantica Tourism. Dive Into Dreams!
+    </footer>
+</body>
+
+</html>
